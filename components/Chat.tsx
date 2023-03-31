@@ -32,7 +32,7 @@ export const Chat = ({
   }, [messages, currentView, activeChannel, activeUser]);
 
   return (
-    <div className='max-h-[592px] overflow-y-auto bg-[linear-gradient(70deg,papayawhip,#b2a4ff)] text-[black] relative grow-[2] px-[30px]'>
+    <div className='h-[calc(100vh_-_208px)] max-lg:max-h-[490px] max-lg:h-auto overflow-y-auto bg-[linear-gradient(70deg,papayawhip,#b2a4ff)] text-[black] relative grow-[2] px-[30px]'>
       {loading ? (
         <Spinner />
       ) : (

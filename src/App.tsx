@@ -59,7 +59,7 @@ export const App = () => {
       });
       clearMessage();
     } catch (error) {
-      toast.error('Oops, try again please!');
+      toast.error('Server error, try again please!');
       setTryAgain(true);
     }
   };
